@@ -1,0 +1,7 @@
+.increase-cursor {
+  cursor: url('../../assets/svg/circle-plus-solid.svg');
+}
+
+.decrease-cursor {
+  cursor: url('../../assets/svg/circle-minus-solid.svg');
+}

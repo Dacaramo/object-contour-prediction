@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2020": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.json"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react-refresh"],
+  "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
+    "array-callback-return": ["error"],
+    "no-await-in-loop": ["error"],
+    "no-cond-assign": ["error", "always"],
+    "no-console": ["warn"],
+    "camelcase": ["warn"],
+    "quotes": ["error", "single", {
+      "avoidEscape": true
+    }],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
